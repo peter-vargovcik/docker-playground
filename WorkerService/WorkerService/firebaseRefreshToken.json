@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "malakai-messenger",
+  "private_key_id": "fba6e5d25038092151ca9e8bcc69256312f07e5a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8b9P8LOquMLCM\n6KdmngMafgFIUgfJJjbOUeIoOKr9Z5UGE72rTtOGmQxrS5vkiKjbOSIs3uI/QPS3\nyeonFPITPYJ8RUkocIRQ//iK/KNlOj1Jfw+TwLsn5xTo/LQOqkBlDBXVol/sfdTb\n4g8YYeplbPB5mB20k9rVR2hVloITAmei9xq00DrPaAHWhMMnbo7pC56CpyBIOdfC\n0SffHgYUwUXHwWi/xPSubzL4/7eD9/iwhIuYqO5UH0sbxYmuuNTwyiOGlGxBBH5N\nyp7LFw9gndOA2wMnPlsjRafuyIitkInUzORhzQ8REF25YQD7oNz51rGBNL4VKBG4\nNxhwSyWXAgMBAAECggEAHfu9Q1byUJ02unUajd1+qOx7z8Idswf9mH62+adqrb+Z\nmsnxWBzG05fuvfPd7lNAawGASpt8bIwtZEEgnO9cRWt4I8Xyihi9NRZFuffRF/5Y\nWiV5mQ0FuqeuUBRFoj+811dA8ilQEhVDlWk29a4+2byn1vE5aM5N97nRBC1arSNi\nLdAxXIpyYHoYsThiTo8cBkv11U4Cj4iQhKzvp5HXc/Mp6pVfHlMvA0OLpqoHGgU8\ntww7JCSVie6XqlryoU1hzFURYJtiH9OYjNFLaDHsQLvnJ5R4MfLvhlw3/lRFHJ5U\ngf6iydR0A5WzGwgA69ayhY7v15R+3AHB7wSwPTIB4QKBgQD+Jnl6K2o1pIZ7Nx0C\nwuYpjgENRRK4ZSjOAS4LifJanCknnVAQbmYnl+aUa4FFeGWhN7vk518makO28G5k\ntxQUG1ulGpjYv4aQbqfjexVZ+cigbbfBm9tU+WTnBm7U4p+8NxJC9TPFFCZWDBQS\nQf5yYZ4JamPRtORx3SMBUTIVVQKBgQC9zusJ+4Ihkqnq5hSwN1PMCQwJgEJqG40o\ndi+fadp8GJdid9bv8RShIkEokEzpKDyliBROst25BiKiYnaLFhWal8qotCOS1n0J\nQivbx3rfdopgQhXO/LpJAQjCnNSPiUKsBlR8fZsC5GvH1LMPCS76DeyE+JAmyn+T\nRHpU8H9POwKBgFa6EmIaRpgfmLSbTg8PKzOq/bjlhUnfW1lRFcFiRY2eFH0sNZIl\n2j5Qm6KyPN7UAvpM5pVqTxHw2UKoMUO1JejmnRNuTBJK6USIPkpmShb2Ifx89GPh\nJ6uLn18m1tNWsmOr91NaEVyDT8G1RXQliQrHPQLBh2accAhbCgL9DjYxAoGBAJW2\nmWPVUy6CDa6vbpAUA+/DDxCLb1dchfntRuD50JDjoLzVg97cjIYQi86gC1o5F6UF\nceclZIglk7n76j8I21+F7R8mf4y5zAQ6gnenn36VdM46MhOC+rjMrQk8RNk2zjT8\nBTXwqQ0d+Pm1BsuMVdZ8lxvHJ4TBYuFZORi4XeKzAoGBAJ7R5vrRrbP7UQKFqJJX\nq3gA1La98U36OeIzbzzSB2PzEvW3hYSPhxkt2Ovn6l8ed4l3g6q2B0YA93A0vUuw\nrD1tjwg95O0QgF/H1iBlyMAI3RLa5RcpHgkw4XUGn9nub93x5AYNxFaV6fC914qU\n0GHwoFWyOPu31l0FcDOBR9ld\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-etaus@malakai-messenger.iam.gserviceaccount.com",
+  "client_id": "117508732240020124076",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-etaus%40malakai-messenger.iam.gserviceaccount.com"
+}

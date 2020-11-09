@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "WHOWorkerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "MS_SQL_SERVER": "192.168.1.12"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
