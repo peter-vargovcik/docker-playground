@@ -1,0 +1,48 @@
+version: '3'
+
+volumes:
+  database_data:
+    driver: local
+
+################################
+#   Setup MS SQL
+################################
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: mssql2017
+#   Setup the username, password, and database name. You can changes these values.
+    environment:
+      - sa_password=Passw0rd!
+      - ACCEPT_EULA=Y
+#   Maps port 54320 (localhost) to port 5432 on the container. You can change the ports to fix your needs.
+    ports:
+      - 1433:1433
+################################
+#   Setup RabbitMQ container
+################################
+  rabbitmq:
+        image: rabbitmq:3-management-alpine
+        container_name: rabbitmq
+        environment:
+            RABBITMQ_DEFAULT_USER: guest
+            RABBITMQ_DEFAULT_PASS: guest
+        ports:
+            - 5672:5672
+            - 15672:15672
+
+################################
+#   Setup whoDataWorker container
+################################
+ whoDataWorker:
+    build: ./WHOWorkerService
+    container_name: who-data-worker
+    links:
+      - db
+    environment:
+      - MS_SQL_SERVER=db
+      - PGDATABASE=postgres
+      - PGUSER=postgres
+      - RABBIT_MQ_HOST=172.17.0.2
+
+ 
