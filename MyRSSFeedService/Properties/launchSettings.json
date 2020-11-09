@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "MyRSSFeedService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "RABBIT_MQ_HOST": "192.168.1.12"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
